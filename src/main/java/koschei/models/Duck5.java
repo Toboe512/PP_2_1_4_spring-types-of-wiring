@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Duck5 {
 
 
-    private Egg6 egg6;
+    private final Egg6 egg6;
 
     public Duck5(@Autowired Egg6 egg6) {
         this.egg6 = egg6;
